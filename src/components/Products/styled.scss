@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    .card {
+        background: #fff;
+        box-shadow: 0px 2px 18px rgb(27, 21, 56);
+        border-radius: 20px;
+        margin-left: 10px;
+
+        .top-card {
+            padding: 20px;
+            padding-top: 3px;
+            h2 {
+                align-items: center;
+                color: rgb(33, 119, 119);
+            }
+        }
+        .media-card {
+            img {
+                width: 260px;
+                height: 270px;
+            }
+        }
+        .bottom-card {
+            padding: 20px;
+            text-align: center;
+            .actions-card {
+                margin-top: 15px;
+                .actions {
+                    background: none;
+                    border: none;
+                    color: darkmagenta;
+                    padding: 0 20px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
