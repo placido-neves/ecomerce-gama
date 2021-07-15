@@ -7,7 +7,6 @@ import './styled.scss'
 
 function App() {
   return (
-   
       <AuthContextProvider>
         <Home/>
       </AuthContextProvider>
