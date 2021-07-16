@@ -29,42 +29,32 @@
         }
     }
 }
-.proucts-main {
+.container {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-p{
-    text-align: center;
-    font-size: 50px;
-}
-.btn-aling {
-    display: flex;
-    justify-content: center;
-  
-    .btn-google {
-        margin-top: 30px;
-        height: 50px;
-        border-radius: 8px;
-        font-weight: 500;
-        background: #ea4335;
-        color: #fff;
-        display: flex;
-        justify-content: center;
+    justify-content: space-between;
+    padding:20px;
+    .cad {
         align-items: center;
-        padding: 10px;
-        text-transform: uppercase;
-
-        cursor: pointer;
-        border: 0;
-
-        transition: filter 0.2s;
-        img {
-            margin-right: 8px;
+        margin-top: 50px;
+        p {
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 0px 0px 5px rgb(17, 11, 11)
         }
-        &:hover {
-            filter: brightness(0.9);
+        .align-btn {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+    }
+
+    .main {
+        padding: 10px;
+        .proucts-main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            padding-bottom: 40px;
         }
     }
 }

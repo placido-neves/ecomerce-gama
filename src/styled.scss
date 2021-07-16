@@ -1,13 +1,12 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-html{
-    height: 100%;
+    box-sizing: border-box;    
 }
 
+
 body{
-    background-image:linear-gradient( #23232e  , #b0b0d6);
+    background:linear-gradient( #23232e  , #b0b0d6);
     color: #c3c3ff;
+    height: 100vh;  
 }

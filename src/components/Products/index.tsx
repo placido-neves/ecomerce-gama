@@ -17,6 +17,7 @@ export function Cards({ title, srcImg, price }: CardProps) {
                     </div>
                     <div className="media-card">
                         <img src={srcImg} alt="" />
+                        <figcaption className = "promocao">promoção</figcaption>
                     </div>
                     <div className="bottom-card">
                         <p className="bootom-text">R$: {price}</p>
