@@ -29,6 +29,11 @@ export function Home() {
                     <div className="align-btn">
                         <Google></Google>
                     </div>
+                    <form>
+                        <label htmlFor="">email:</label>
+                        <input type="text" placeholder = "exaple@exeaple.com"/>
+                        <Button>send</Button>
+                    </form>
                 </div>
                 <div className="main">
                     <div className="proucts-main">
