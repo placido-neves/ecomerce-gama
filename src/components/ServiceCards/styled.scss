@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    .card-services {
+        background: #616181;
+        box-shadow: 0px 2px 18px rgb(27, 21, 56);
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+}
+
+.title{
+    padding: 10px;
+    padding-top: 3px;
+    h3{
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+.body-services{
+    padding: 20px;
+    width: 250px;
+    height: 270px;
+    font-size: 13px;
+    font-family: sans-serif;
+    line-height: 15px;
+}
