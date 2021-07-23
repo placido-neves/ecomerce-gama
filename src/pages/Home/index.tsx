@@ -17,25 +17,25 @@ import "./styled.scss"
 
 export function Home() {
     const history = useHistory()
-    const user: any = localStorage.getItem("user")
+
 
     const cadProd = () => {
+        let user: any = localStorage.getItem("user")
         if (user !== null) {
-            let { name, password, email } = JSON.parse(user)
-            if (name === "" && password === "" && email === "") {
-                return true
-            } else {
-                return false
-            }
+            return false
+
+        } else {
+            return true
         }
     }
     const handleCreateProduto = () => {
         history.push("/produtos")
     }
     const handleCreateClient = (event: FormEvent) => {
+        let user: any = localStorage.getItem("user")
+        console.log(user)
         event.preventDefault()
-        let { name, password, email } = JSON.parse(user)
-        if (name === "" && password === "" && email === "") {
+        if (user === null) {
             history.push('/client')
 
         }
