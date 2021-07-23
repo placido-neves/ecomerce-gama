@@ -1,0 +1,90 @@
+.container-cad {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(117, 174, 207), rgb(192, 189, 179) ,);
+    padding: 20px;
+    height: 70vh;
+    width: 350px;
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    color:#6c6c94;
+
+    input:focus{
+        outline: none;
+    }
+    .nome {
+        display:grid;
+        padding: 20px;
+        label {
+            font-size: 15x;
+            padding-left:5px ;
+        }
+        input[type="text"] {
+            border: none;
+            background: transparent;
+            margin-left: 9px;
+            border-bottom:3px solid  rgba(0, 0, 0, 0.5) ;;
+            padding: 7px;
+            font-size: 20px;
+        }
+    }
+    .password {
+        display:grid;
+        padding: 20px;
+        label {
+            font-size: 15px;
+            padding-left:5px ;
+        }
+        input[type="password"] {
+            border: none;
+            background: transparent;
+            margin-left: 9px;
+            border-bottom:3px solid  rgba(0, 0, 0, 0.5) ;
+            padding: 7px;
+            font-size: 15px;
+        }
+    }
+    .email {
+        display:grid;
+        padding: 20px;
+        label {
+            font-size: 15px;
+            padding-left:5px ;
+        }
+        input[type="email"] {
+            border: none;
+            background: transparent;
+            margin-left: 9px;
+            border-bottom:3px solid  rgba(0, 0, 0, 0.5) ;
+            padding: 7px;
+            font-size: 15px;
+        }
+    }
+    .aling-btn {
+        display:grid;
+        justify-content: center;
+        align-items: center;
+
+        button {
+            height: 50px;
+            border-radius: 8px;
+            font-weight: 500;
+            background: rgb(117, 174, 207);;
+            color: #fff;
+            margin-top: 7px;
+            text-transform: uppercase;
+            padding: 4px;
+            font-size: 15px;
+
+            cursor: pointer;
+            border: 0;
+
+            transition: filter 0.2s;
+
+            &:hover {
+                filter: brightness(0.9);
+            }
+        }
+    }
+}
