@@ -21,15 +21,16 @@ export function Home() {
 
 
     const cadProd = () => {
-
-        let { name, password, email } = JSON.parse(user)
-        if (name === "" && password === "" && email === "") {
-            return true
-        } else {
-            return false
+        if (user) {
+            let { name, password, email } = JSON.parse(user)
+            if (name === "" && password === "" && email === "") {
+                return true
+            } else {
+                return false
+            }
         }
     }
-    const handleCreateProduto = ()=>{
+    const handleCreateProduto = () => {
         history.push("/produtos")
     }
     const handleCreateClient = (event: FormEvent) => {
