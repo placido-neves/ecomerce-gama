@@ -21,7 +21,7 @@ export function Home() {
 
 
     const cadProd = () => {
-        if (user) {
+        if (user === null) {
             let { name, password, email } = JSON.parse(user)
             if (name === "" && password === "" && email === "") {
                 return true
