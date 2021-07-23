@@ -19,9 +19,8 @@ export function Home() {
     const history = useHistory()
     const user: any = localStorage.getItem("user")
 
-
     const cadProd = () => {
-        if (user === null) {
+        if (user !== null) {
             let { name, password, email } = JSON.parse(user)
             if (name === "" && password === "" && email === "") {
                 return true
