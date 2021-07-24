@@ -29,15 +29,14 @@ export function Home() {
         }
     }
     const handleCreateProduto = () => {
-        history.push("/produtos")
+        history.push("/cadproduto")
     }
     const handleCreateClient = (event: FormEvent) => {
         let user: any = localStorage.getItem("user")
         console.log(user)
         event.preventDefault()
         if (user === null) {
-            history.push('/client')
-
+            history.push('/cadclient')
         }
     }
 

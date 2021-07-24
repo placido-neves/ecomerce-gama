@@ -7,6 +7,7 @@ export function Nav() {
         <div className="header">
             <div className="nav">
                 <a href="/">ShopYour</a>
+                <a href="/produtos">Produtos</a>
                 <form>
                     <input type="text" name="" id="" />
                     <Button>seach</Button>
